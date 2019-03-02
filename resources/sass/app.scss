@@ -113,7 +113,10 @@
 
 /****************************** Bootstrap fixes *******************************/
 // Fixes top-bar menu covering contents
-body { padding-top: 5em; }
+body { 
+  @include media-breakpoint-down(sm) { padding-top: 7em; }
+  @include media-breakpoint-up(lg) { padding-top: 5em; }
+}
 
 // Change top navigation bar color
 .navbar-custom {

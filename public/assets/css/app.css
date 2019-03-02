@@ -13856,8 +13856,16 @@ a.text-dark:focus {
 
 /****************************** Bootstrap fixes *******************************/
 
-body {
-  padding-top: 5em;
+@media (max-width: 767.98px) {
+  body {
+    padding-top: 7em;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 5em;
+  }
 }
 
 .navbar-custom {
