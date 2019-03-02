@@ -3,7 +3,7 @@
 {{-- Declare required page constants --}}
 <?php
 $d_page = array(
-    'title' => 'Coming Soon',
+    'title' => 'Hello Loyolite!',
     'description' => 'This is the Home page!'
 );
 ?>
@@ -24,9 +24,20 @@ $d_page = array(
   -- Define the page body
   --}}
 @section('body')
-<div class="container">
-
-</div>
+<div class="row">
+        <h2 class="sl-ospace-1 sl-center-c">{{ $d_page['title'] }}</h2>
+    </div>
+    <div class="row sl-contact-us">
+      <img src="/assets/images/loading.gif" alt="STEM-Loyola Email" class="sl-ospace-1 img-fluid sl-center-c">                   
+    </div>
+    <div class="sl-ospace-3"></div>
+    <div class="row">
+      <h5 class="sl-center-c">We are working hard to bring to you our first challenge.</h5>
+    </div>
+    <div class="sl-ospace-3"></div>
+    <div class="row sl-center-t">
+      <p>While you wait, we have hidden our motto somewhere in this page. Actually, we have hidden the motto in all pages. Can you find it? Email us your answer when you locate it.</p>
+    </div>
 @stop
 
 
