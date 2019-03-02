@@ -169,11 +169,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        STEMLoyolaChallenges\Providers\AppServiceProvider::class,
+        STEMLoyolaChallenges\Providers\AuthServiceProvider::class,
+        // STEMLoyolaChallenges\Providers\BroadcastServiceProvider::class,
+        STEMLoyolaChallenges\Providers\EventServiceProvider::class,
+        STEMLoyolaChallenges\Providers\RouteServiceProvider::class,
 
     ],
 

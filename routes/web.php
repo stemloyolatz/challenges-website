@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/*
+ * Home pages
+ */
+// Public home page a.k.a the landing page
+Route::get('/', [
+    'as' => 'home.public',
+    'uses' => 'HomeController@getPublicHome'
+]);
