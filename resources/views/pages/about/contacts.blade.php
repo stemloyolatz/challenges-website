@@ -1,10 +1,8 @@
-{{-- This is the default home page a.k.a landing page for the website --}}
-
 {{-- Declare required page constants --}}
 <?php
 $d_page = array(
-    'title' => 'Coming Soon',
-    'description' => 'This is the Home page!'
+    'title' => 'Contact Us',
+    'description' => 'This is the Contacts page!'
 );
 ?>
 
@@ -24,9 +22,12 @@ $d_page = array(
   -- Define the page body
   --}}
 @section('body')
-<div class="container">
-<p>Home Body</p>
-</div>
+    <?php $menu = 'contacts'; ?>
+    @include('partials.menu-about')
+
+    <div class="row ">
+        <h2 class="sl-ospace-1 sl-center-c">{{ $d_page['title'] }}</h2>
+    </div>
 @stop
 
 
@@ -34,5 +35,5 @@ $d_page = array(
   -- Define the page footer
   --}}
 @section('footer')
-    @include('partials.default-footer')
+  @include('partials.default-footer')
 @stop

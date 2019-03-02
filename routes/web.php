@@ -19,3 +19,27 @@ Route::get('/', [
     'as' => 'home.public',
     'uses' => 'HomeController@getPublicHome'
 ]);
+
+
+/*
+ * About STEM Loyola Challenges
+ */
+Route::get('/about', [
+    'as' => 'about.about',
+    'uses' => 'AboutController@getAbout'
+]);
+
+Route::get('/about/contacts', [
+    'as' => 'about.contacts',
+    'uses' => 'AboutController@getContacts'
+]);
+
+Route::get('/about/privacy', [
+    'as' => 'about.privacy',
+    'uses' => 'AboutController@getPrivacy'
+]);
+
+Route::get('/about/terms', [
+    'as' => 'about.terms',
+    'uses' => 'AboutController@getTerms'
+]);

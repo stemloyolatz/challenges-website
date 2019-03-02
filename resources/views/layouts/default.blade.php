@@ -21,7 +21,7 @@
     <meta property="og:title" content="STEMLoyola | {!! $d_page['title'] !!}" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{!! route('home.public') !!}" />
-    <meta property="og:image" content="/assets/images/sl-challenges-logo.png" /> {{-- TODO --}}
+    <meta property="og:image" content="/assets/images/stem-loyola-con.png" />
     <meta property="og:description" content="STEMLoyola Challenges" />
     <meta property="og:site_name" content="STEMLoyola Challenges" />
     {{--  Social Media Tags end --}}
@@ -49,13 +49,15 @@
     <link href="/assets/css/app.css?v=0.0.1" rel="stylesheet" type="text/css" >
   </head>
   <body>
-    @yield('top-bar')
-    @yield('body')
-    @yield('footer')
+    <div class="container">
+      @yield('top-bar')
+      @yield('body')
+      @yield('footer')
 
-    {{--  Vendor and custom scripts  --}}
-    <script src="/assets/js/app.js?v=0.0.1"></script>
-    {{-- Set up Google Analytics --}}
-    {{-- TODO --}}
+      {{--  Vendor and custom scripts  --}}
+      <script src="/assets/js/app.js?v=0.0.1"></script>
+      {{-- Set up Google Analytics --}}
+      {{-- TODO --}}
+    </div>
   </body>
 </html>

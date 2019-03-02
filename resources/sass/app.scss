@@ -1,14 +1,103 @@
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 // Variables
 @import 'variables';
 
+// Debugging helpers
+@import 'debugging';
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// Font Awesome Icons
+@import '~font-awesome/scss/font-awesome';
+
+
+/******************************************************************************/
+/*********** GENERIC ***********/
+// Center items
+.sl-center-t { text-align: center; }
+.sl-center-c { margin: 0 auto; }
+
+// Space items
+.sl-ospace-1 {
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
+
+.sl-ospace-2 {
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.sl-ospace-3 {
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/****************************** STEM LOYOLA LOGO ******************************/
+.sl-logo { max-height: 3em; }
+
+
+/********************************* ABOUT PAGES ********************************/
+.sl-about-menu {
+  background-color: $white;
+  padding: 1em 0;
+  font-size: 1.2em;
+}
+
+.sl-legal {
+  padding: 0 1em;
+
+  h1 { width: 100%; }
+  h4 { width: 100%; }
+  span { width: 100%; }
+
+  @include media-breakpoint-up(lg) {
+    .b1 { padding: .5em 3em; }
+    .b2 { padding: .5em 6em; }
+    .b3 { padding: .5em 9em; }
+  }
+
+  @include media-breakpoint-down(sm)  {
+    .b1 { padding: .5em; }
+    .b2 { padding: .5em 1em; }
+    .b3 { padding: .5em 1.5em; }
+  }
+}
+
+.sl {
+  .left { color: $grey; }
+  .right { color: $red-2; }
+}
+
+
+/*********************************** FOOTER ***********************************/
+.sl-footer-wrapper {
+  background-color: $footer-bg-color;
+  color: $footer-text-color;
+  width: 100%;
+
+  a {
+    color: $footer-links-color;
+
+    &:hover { color: $footer-links-hover; }
+  }
+
+  .sl-links {
+    margin-bottom: .5em;
+
+    a {
+      margin: 0 1em;
+    }
+  }
+}
+
+.sl-footer { padding: 2em .5em; }
+
+
+/****************************** Bootstrap fixes *******************************/
+// Fixes top-bar menu covering contents
+body { padding-top: 5em; }
