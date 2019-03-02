@@ -1,0 +1,71 @@
+### Packages you may need to install
+###
+sudo apt install php7.0-xml php7.0-mbstring phpunit
+
+# Install latest composer
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
+
+
+### Run app locally
+###
+$ php artisan serve
+
+
+### Run PHPUnit Tests
+$ phpunit
+
+### Running Mix
+###
+// Run all Mix tasks...
+$ npm run dev
+
+// Run all Mix tasks and minify output...
+$ npm run production
+
+// Continuous running and watching for change (preferred for development)
+$ npm run watch
+
+
+### Deployment in production
+###
+$ php composer install
+$ php composer dumpautoload -o
+$ php artisan config:cache
+$ php artisan route:cache
+
+$ chmod -R 755 bongohacks
+$ chmod a+w bootstrap/cache storage
+
+
+
+NB: Install latest NodeJS
+https://github.com/nodesource/distributions#debinstall
+
+$ npm install
+
+### First time additional setup
+###
+1. Create .env file from .env_example
+$ cp .env_example .env
+
+2. Generate key (it will be added into .env above):
+$ php artisan key:generate
+
+3. Create a free MailTrap account (https://mailtrap.io/) to test sending emails.
+
+4. Create database you'll use for the site and a user. In PHPMyAdmin, ensure the
+user has all "Data" and "Structure" privileges. Also select only "REFERENCES" in
+"Administrative" section.
+
+5. Edit .env file. Ensure DB_* and MAIL_* are configured correctly. Database
+settings are your MySQL installation and the credentials you created in Step 4.
+Grab credentials from your MailTrap account (inbox settings page) to fill MAIL_*
+parameters.
+
+Use the following for NOCAPTCHA_*
+
+NOCAPTCHA_SECRET=6LcjdyMTAAAAAObc3hDdrr95p__PBPHHb4_lAudW
+NOCAPTCHA_SITEKEY=6LcjdyMTAAAAAEKgYvrMBi04Fv3FtvOnsSSB1pbl
+
+6. Create tables and references:
+$ php artisan migrate

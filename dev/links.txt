@@ -1,0 +1,9 @@
++ Stupid .htaccess tricks: https://perishablepress.com/stupid-htaccess-tricks/
+
++ Laravel Markdown Cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables
+
++ Favicon generator http://www.favicon-generator.org/
+
++ Download Icons: https://thenounproject.com/
+
++ Messenger (status notifications): http://github.hubspot.com/messenger/docs/welcome/

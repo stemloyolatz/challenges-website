@@ -1,0 +1,3 @@
+Best Practices: http://www.laravelbestpractices.com/
+
+Quora answer best practices: http://bit.ly/2ndNa15
