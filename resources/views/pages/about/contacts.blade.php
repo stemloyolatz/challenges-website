@@ -24,14 +24,15 @@ $d_page = array(
 @section('body')
     <?php $menu = 'contacts'; ?>
     @include('partials.menu-about')
-
-    <div class="row">
-        <h2 class="sl-ospace-1 sl-center-c">{{ $d_page['title'] }}</h2>
+    <div class="container sl-cont">
+      <div class="row">
+          <h2 class="sl-ospace-1 sl-center-c">{{ $d_page['title'] }}</h2>
+      </div>
+      <div class="row sl-contact-us">
+        <img src="/assets/images/stem-loyola-email.png" alt="STEM-Loyola Email" class="sl-ospace-1 img-fluid sl-center-c">                   
+      </div>
+      <div class="sl-ospace-3"></div>
     </div>
-    <div class="row sl-contact-us">
-      <img src="/assets/images/stem-loyola-email.png" alt="STEM-Loyola Email" class="sl-ospace-1 img-fluid sl-center-c">                   
-    </div>
-    <div class="sl-ospace-3"></div>
     
 @stop
 
