@@ -13747,6 +13747,11 @@ a.text-dark:focus {
   margin-top: 3em;
 }
 
+.sl-cont {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 /****************************** STEM LOYOLA LOGO ******************************/
 
 .sl-logo {
