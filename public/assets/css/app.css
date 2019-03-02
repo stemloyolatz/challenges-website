@@ -13761,6 +13761,14 @@ a.text-dark:focus {
   font-size: 1.2em;
 }
 
+.sl-about-stem img {
+  max-height: 10em;
+}
+
+.sl-contact-us img {
+  max-height: 3em;
+}
+
 .sl-legal {
   padding: 0 1em;
 }
@@ -13826,7 +13834,7 @@ a.text-dark:focus {
 }
 
 .sl-footer-wrapper a:hover {
-  color: #303948;
+  color: #60120c;
 }
 
 .sl-footer-wrapper .sl-links {
@@ -13847,7 +13855,15 @@ body {
   padding-top: 5em;
 }
 
-.navbar {
+.navbar-custom {
   background-color: #fff;
+}
+
+.navbar-custom a {
+  color: #605c5c;
+}
+
+.navbar-custom a:hover {
+  color: #60120c;
 }
 

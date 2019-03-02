@@ -28,6 +28,10 @@ $d_page = array(
     <div class="row">
         <h2 class="sl-ospace-1 sl-center-c">What is <span class="sl"><span class="left">STEM </span><span class="right">Loyola</span></span> | Challenges?</h2>
     </div>
+    <div class="row sl-about-stem">
+      <img src="/assets/images/stem.png" alt="STEM-Loyola Email" class="sl-ospace-1 img-fluid sl-center-c">                   
+    </div>
+    <div class="sl-ospace-3"></div>
 @stop
 
 

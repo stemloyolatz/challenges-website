@@ -48,6 +48,14 @@
   font-size: 1.2em;
 }
 
+.sl-about-stem {
+  img { max-height: 10em; }
+}
+
+.sl-contact-us {
+  img { max-height: 3em; }
+}
+
 .sl-legal {
   padding: 0 1em;
 
@@ -103,6 +111,12 @@
 body { padding-top: 5em; }
 
 // Change top navigation bar color
-.navbar {
+.navbar-custom {
   background-color: $navbar-bg-color;
+
+  a {
+    color: $grey;
+
+    &:hover {  color: $red-1;  }
+  }
 }
