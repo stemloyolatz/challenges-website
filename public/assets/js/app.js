@@ -48999,7 +48999,11 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
 
 var app = new Vue({
   el: '#app'
-});
+}); // Execute custom scripts
+
+__webpack_require__(/*! ./custom/fixes.js */ "./resources/js/custom/fixes.js");
+
+__webpack_require__(/*! ./custom/extras.js */ "./resources/js/custom/extras.js");
 
 /***/ }),
 
@@ -49127,6 +49131,111 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
+
+/***/ }),
+
+/***/ "./resources/js/custom/extras.js":
+/*!***************************************!*\
+  !*** ./resources/js/custom/extras.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+'use-strict';
+/*   Enable scroll to top  */
+
+var scrolltotop = {
+  setting: {
+    startline: 100,
+    scrollto: 0,
+    scrollduration: 1e3,
+    fadeduration: [500, 100]
+  },
+  controlHTML: '<img width="40" height="40" src="/assets/images/arrow-top.png" />',
+  controlattrs: {
+    offsetx: 5,
+    offsety: 5
+  },
+  anchorkeyword: "#top",
+  state: {
+    isvisible: !1,
+    shouldvisible: !1
+  },
+  scrollup: function scrollup() {
+    this.cssfixedsupport || this.$control.css({
+      opacity: 0
+    });
+    var t = isNaN(this.setting.scrollto) ? this.setting.scrollto : parseInt(this.setting.scrollto);
+    t = "string" == typeof t && 1 == jQuery("#" + t).length ? jQuery("#" + t).offset().top : 0, this.$body.animate({
+      scrollTop: t
+    }, this.setting.scrollduration);
+  },
+  keepfixed: function keepfixed() {
+    var t = jQuery(window),
+        o = t.scrollLeft() + t.width() - this.$control.width() - this.controlattrs.offsetx,
+        s = t.scrollTop() + t.height() - this.$control.height() - this.controlattrs.offsety;
+    this.$control.css({
+      left: o + "px",
+      top: s + "px"
+    });
+  },
+  togglecontrol: function togglecontrol() {
+    var t = jQuery(window).scrollTop();
+    this.cssfixedsupport || this.keepfixed(), this.state.shouldvisible = t >= this.setting.startline ? !0 : !1, this.state.shouldvisible && !this.state.isvisible ? (this.$control.stop().animate({
+      opacity: 1
+    }, this.setting.fadeduration[0]), this.state.isvisible = !0) : 0 == this.state.shouldvisible && this.state.isvisible && (this.$control.stop().animate({
+      opacity: 0
+    }, this.setting.fadeduration[1]), this.state.isvisible = !1);
+  },
+  init: function init() {
+    jQuery(document).ready(function (t) {
+      var o = scrolltotop,
+          s = document.all;
+      o.cssfixedsupport = !s || s && "CSS1Compat" == document.compatMode && window.XMLHttpRequest, o.$body = t(window.opera ? "CSS1Compat" == document.compatMode ? "html" : "body" : "html,body"), o.$control = t('<div id="topcontrol">' + o.controlHTML + "</div>").css({
+        position: o.cssfixedsupport ? "fixed" : "absolute",
+        bottom: o.controlattrs.offsety,
+        right: o.controlattrs.offsetx,
+        opacity: 0,
+        cursor: "pointer"
+      }).attr({
+        title: "Scroll to Top"
+      }).click(function () {
+        return o.scrollup(), !1;
+      }).appendTo("body"), document.all && !window.XMLHttpRequest && "" != o.$control.text() && o.$control.css({
+        width: o.$control.width()
+      }), o.togglecontrol(), t('a[href="' + o.anchorkeyword + '"]').click(function () {
+        return o.scrollup(), !1;
+      }), t(window).bind("scroll resize", function (t) {
+        o.togglecontrol();
+      });
+    });
+  }
+};
+scrolltotop.init();
+
+/***/ }),
+
+/***/ "./resources/js/custom/fixes.js":
+/*!**************************************!*\
+  !*** ./resources/js/custom/fixes.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+'use-scrict';
+/* Fix the footer */
+
+$(document).ready(function () {
+  'use strict';
+
+  var docHeight = $(window).height();
+  var footerHeight = $('#footer').height();
+  var footerTop = $('#footer').position().top + footerHeight;
+
+  if (footerTop < docHeight) {
+    $('#footer').css('margin-top', 0 + (docHeight - footerTop) + 'px');
+  }
+});
 
 /***/ }),
 

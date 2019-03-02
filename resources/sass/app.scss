@@ -101,3 +101,8 @@
 /****************************** Bootstrap fixes *******************************/
 // Fixes top-bar menu covering contents
 body { padding-top: 5em; }
+
+// Change top navigation bar color
+.navbar {
+  background-color: $navbar-bg-color;
+}
