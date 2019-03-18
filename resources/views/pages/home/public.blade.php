@@ -29,7 +29,7 @@ $d_page = array(
       <h2 class="sl-ospace-1 sl-center-c">{{ $d_page['title'] }}</h2>
   </div>
   <div class="row  sl-cont">
-      <h2 id="count-down" class="sl-ospace-1 sl-center-c">.</h2>
+      <h4 id="count-down" class="sl-ospace-1 sl-center-c">.</h4>
   </div>
   <div class="sl-ospace-3 "></div>
   <div class="row">
