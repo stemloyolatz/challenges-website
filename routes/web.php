@@ -43,3 +43,12 @@ Route::get('/about/terms', [
     'as' => 'about.terms',
     'uses' => 'AboutController@getTerms'
 ]);
+
+
+/*
+ * Resources pages
+ */
+Route::get('/article/{id}', [
+    'as' => 'resources.article',
+    'uses' => 'ResourcesController@getArticle'
+]);

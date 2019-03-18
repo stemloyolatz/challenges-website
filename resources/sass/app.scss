@@ -42,6 +42,28 @@
   padding-right: 2em;
 }
 
+/********************************* CHALLENGE **********************************/
+.sl-challenge-left {
+  border-right: .3em solid $grey;
+  margin-right: .2em;
+
+  .summary {
+    border: .1em dashed $grey;
+    padding: 1em;
+  }
+}
+
+.sl-challenge-right {
+  border-left: .3em solid $red-2;
+  margin-left: .1em;
+
+  .summary {
+    border: .1em dashed $grey;
+    padding: 1em;
+  }
+}
+
+
 /****************************** STEM LOYOLA LOGO ******************************/
 .sl-logo { max-height: 3em; }
 

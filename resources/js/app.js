@@ -35,5 +35,5 @@ const app = new Vue({
 
 
 // Execute custom scripts
-require('./custom/fixes.js');
 require('./custom/extras.js');
+require('./custom/fixes.js');

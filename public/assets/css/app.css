@@ -13752,6 +13752,28 @@ a.text-dark:focus {
   padding-right: 2em;
 }
 
+/********************************* CHALLENGE **********************************/
+
+.sl-challenge-left {
+  border-right: 0.3em solid #605c5c;
+  margin-right: 0.2em;
+}
+
+.sl-challenge-left .summary {
+  border: 0.1em dashed #605c5c;
+  padding: 1em;
+}
+
+.sl-challenge-right {
+  border-left: 0.3em solid #bf1e2d;
+  margin-left: 0.1em;
+}
+
+.sl-challenge-right .summary {
+  border: 0.1em dashed #605c5c;
+  padding: 1em;
+}
+
 /****************************** STEM LOYOLA LOGO ******************************/
 
 .sl-logo {

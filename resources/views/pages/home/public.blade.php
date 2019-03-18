@@ -3,7 +3,7 @@
 {{-- Declare required page constants --}}
 <?php
 $d_page = array(
-    'title' => 'Hello Loyolite!',
+    'title' => 'Challenge #1',
     'description' => 'This is the Home page!'
 );
 ?>
@@ -25,19 +25,30 @@ $d_page = array(
   --}}
 @section('body')
 <div class="container sl-cont">
-  <div class="row  sl-cont">
+  <div class="row sl-cont">
       <h2 class="sl-ospace-1 sl-center-c">{{ $d_page['title'] }}</h2>
   </div>
-  <div class="row sl-contact-us">
-    <img src="/assets/images/loading.gif" alt="STEM-Loyola Email" class="sl-ospace-1 img-fluid sl-center-c">                   
+  <div class="row  sl-cont">
+      <h2 id="count-down" class="sl-ospace-1 sl-center-c">.</h2>
   </div>
   <div class="sl-ospace-3 "></div>
   <div class="row">
-    <h5 class="sl-center-c">We are working hard to bring to you our first challenge.</h5>
-  </div>
-  <div class="sl-ospace-3"></div>
-  <div class="row sl-center-t">
-    <p>While you wait, we have hidden our motto somewhere in this page. Actually, we have hidden the motto in all pages. Can you find it? Email us your answer when you locate it.</p>
+    <div class="col-sm sl-center-t sl-ospace-1 sl-challenge-left">
+        <h3>For the Novice</h3>
+        <h4 class="sl-ospace-1"><b>Greetings</b></h4>
+        <p class="summary"><i>Create your very first program and use it to tell us few things about yourself!</i></p>
+        <h5>Download Resources for:</h5>
+        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A1-python.zip') }}">Python from here!</a> (recommended for all beginners)</b></p>
+        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A1-cpp.zip') }}">C++ from here!</a> (recommended for Form Five students planning to take optional Computer Science)</b></p>
+    </div>
+    <div class="col-sm sl-center-t sl-ospace-1 sl-challenge-right">
+        <h3>For the Experienced</h3>
+        <h4 class="sl-ospace-1"><b>Jane in Trouble</b></h4>
+        <p class="summary"><i>Jane has written a program to help her complete her Maths homework quickly. Unfortunately, she is facing some few issues with the program. Can you help her fix it?</i></p>
+        <h5>Download Resources for:</h5>
+        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A2-cpp.zip') }}">C++ from here!</a></b></p>
+        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A2-python.zip') }}">Python from here!</a></b></p>
+    </div>
   </div>
 </div>
 @stop
