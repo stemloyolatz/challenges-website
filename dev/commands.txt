@@ -33,7 +33,7 @@ $ php composer dumpautoload -o
 $ php artisan config:cache
 $ php artisan route:cache
 
-$ chmod -R 755 bongohacks
+$ chmod -R 755 challenges-website
 $ chmod a+w bootstrap/cache storage
 
 
@@ -64,8 +64,8 @@ parameters.
 
 Use the following for NOCAPTCHA_*
 
-NOCAPTCHA_SECRET=6LcjdyMTAAAAAObc3hDdrr95p__PBPHHb4_lAudW
-NOCAPTCHA_SITEKEY=6LcjdyMTAAAAAEKgYvrMBi04Fv3FtvOnsSSB1pbl
+NOCAPTCHA_SECRET=
+NOCAPTCHA_SITEKEY=
 
 6. Create tables and references:
 $ php artisan migrate
