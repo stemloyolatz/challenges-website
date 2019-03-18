@@ -38,8 +38,8 @@ $d_page = array(
         <h4 class="sl-ospace-1"><b>Greetings</b></h4>
         <p class="summary"><i>Create your very first program and use it to tell us few things about yourself!</i></p>
         <h5>Download Resources for:</h5>
-        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A1-python.zip') }}">Python from here!</a> (recommended for all beginners)</b></p>
-        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A1-cpp.zip') }}">C++ from here!</a> (recommended for Form Five students planning to take optional Computer Science)</b></p>
+        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A1-python.zip') }}">Python from here!</a></b> (recommended for all beginners)</p>
+        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A1-cpp.zip') }}">C++ from here!</a></b> (recommended for Form Five students planning to take optional Computer Science)</p>
     </div>
     <div class="col-sm sl-center-t sl-ospace-1 sl-challenge-right">
         <h3>For the Experienced</h3>
@@ -48,6 +48,13 @@ $d_page = array(
         <h5>Download Resources for:</h5>
         <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A2-cpp.zip') }}">C++ from here!</a></b></p>
         <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A2-python.zip') }}">Python from here!</a></b></p>
+    </div>
+  </div>
+  <div class="sl-ospace-3 "></div>
+  <div class="row">
+    <div class="col-sm sl-center-t sl-ospace-3">
+      <h5><strong>Important Notes for Beginners:</strong></h5>
+      <p>Coming Soon!</p>
     </div>
   </div>
 </div>
