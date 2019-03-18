@@ -35,7 +35,7 @@ $d_page = array(
   <div class="row">
     <div class="col-sm sl-center-t sl-ospace-1 sl-challenge-left">
         <h3>For the Novice</h3>
-        <h4 class="sl-ospace-1"><b>Greetings</b></h4>
+        <h5 class="sl-ospace-1"><b>Greetings</b></h5>
         <p class="summary"><i>Create your very first program and use it to tell us few things about yourself!</i></p>
         <h5>Download Resources for:</h5>
         <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A1-python.zip') }}">Python from here!</a></b> (recommended for all beginners)</p>
