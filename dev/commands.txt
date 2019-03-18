@@ -1,6 +1,6 @@
 ### Packages you may need to install
 ###
-sudo apt install php7.0-xml php7.0-mbstring phpunit
+sudo apt install apache2 libapache2-mod-php7.2 php7.2 php7.2-xml php7.2-gd php7.2-opcache php7.2-mbstring 
 
 # Install latest composer
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
@@ -28,8 +28,8 @@ $ npm run watch
 
 ### Deployment in production
 ###
-$ php composer install
-$ php composer dumpautoload -o
+$ composer install
+$ composer dumpautoload -o
 $ php artisan config:cache
 $ php artisan route:cache
 
@@ -43,7 +43,7 @@ https://github.com/nodesource/distributions#debinstall
 
 $ npm install
 
-### First time additional setup
+### First time additional setupn (maybe)
 ###
 1. Create .env file from .env_example
 $ cp .env_example .env
