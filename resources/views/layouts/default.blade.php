@@ -73,7 +73,7 @@
     <meta name="theme-color" content="#ffffff">
     
     {{--  Vendor and custom styles  --}}
-    <link href="/assets/css/app.css?v=0.1" rel="stylesheet" type="text/css" >
+    <link href="/assets/css/app.css?v=0.2" rel="stylesheet" type="text/css" >
   </head>
   <body>
     <div class="container">
@@ -82,7 +82,7 @@
       @yield('footer')
 
       {{--  Vendor and custom scripts  --}}
-      <script src="/assets/js/app.js?v=0.1"></script>
+      <script src="/assets/js/app.js?v=0.2"></script>
 
       {{-- Set up Google Analytics --}}
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135436218-1"></script>

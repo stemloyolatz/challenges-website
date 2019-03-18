@@ -53,7 +53,7 @@ $d_page = array(
   <div class="sl-ospace-3 "></div>
   <div class="row">
     <div class="col-sm sl-center-t sl-ospace-3">
-      <h5><strong>Important Notes for Beginners:</strong></h5>
+      <h5><strong>Support Notes for Beginners:</strong></h5>
       <p>Coming Soon!</p>
     </div>
   </div>
