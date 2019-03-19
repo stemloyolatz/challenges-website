@@ -73,7 +73,7 @@
     <meta name="theme-color" content="#ffffff">
     
     {{--  Vendor and custom styles  --}}
-    <link href="/assets/css/app.css?v=0.2" rel="stylesheet" type="text/css" >
+    <link href="/assets/css/app.css?v=0.3" rel="stylesheet" type="text/css" >
   </head>
   <body>
     <div class="container">
