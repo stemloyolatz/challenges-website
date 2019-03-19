@@ -50,10 +50,15 @@ $d_page = array(
         <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A2-python.zip') }}">Python from here!</a></b></p>
     </div>
   </div>
-  <div class="sl-ospace-3 "></div>
   <div class="row">
     <div class="col-sm sl-center-t sl-ospace-3">
-      <h5><strong>Support Notes for Beginners:</strong></h5>
+      <h5><strong>Solution Submission:</strong></h5>
+      <p><b><a href="{{ url('/about/contacts') }}">Email us your solution</a></b></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm sl-center-t sl-ospace-3">
+      <h5><strong>Support Materials for Beginners:</strong></h5>
       <p>Coming Soon!</p>
     </div>
   </div>
