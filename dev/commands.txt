@@ -75,3 +75,7 @@ $ php artisan migrate
 # Git HTTPS login credentials persistence
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=3600'
+
+
+# Emojis
+https://www.emojione.com/emoji/v4
