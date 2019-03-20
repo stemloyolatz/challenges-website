@@ -16475,7 +16475,11 @@ readers do not read off random characters that represent icons */
   margin-right: 0.2em;
 }
 
-.sl-challenge-left .summary {
+.sl-challenge-left .sl-paint {
+  color: #605c5c;
+}
+
+.sl-challenge-left .sl-summary {
   border: 0.1em dashed #605c5c;
   padding: 1em;
 }
@@ -16485,7 +16489,11 @@ readers do not read off random characters that represent icons */
   margin-left: 0.1em;
 }
 
-.sl-challenge-right .summary {
+.sl-challenge-right .sl-paint {
+  color: #bf1e2d;
+}
+
+.sl-challenge-right .sl-summary {
   border: 0.1em dashed #605c5c;
   padding: 1em;
 }
