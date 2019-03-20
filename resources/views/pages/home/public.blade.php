@@ -39,8 +39,28 @@ $d_page = array(
         <h1 class="sl-ospace-1">@emojione(':hugging:')</h1>
         <p class="summary"><i>Create your very first program and use it to tell us few things about yourself!</i></p>
         <h5><i class="fas fa-lg fa-file-code"></i> Download Resources for:</h5>
-        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A1-python.zip') }}">Python from here!</a></b> (recommended for all beginners)</p>
-        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A1-cpp.zip') }}">C++ from here!</a></b> (recommended for Form Five students planning to take optional Computer Science)</p>
+        <div class="sl-ospace-1 "></div>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Programming Language</th>
+              <th scope="col">Resources</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td><b>Python</b> <i>(recommended for all beginners)</i></td>
+              <td><a href="{{ url('/assets/challenges/19.03/19.03-A1-python.zip') }}">download</a></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td><b>C++</b> <i>(recommended for Form Five students planning to take optional Computer Science)</i></td>
+              <td><a href="{{ url('/assets/challenges/19.03/19.03-A1-cpp.zip') }}">download</a></td>
+            </tr>
+          </tbody>
+        </table>
     </div>
     <div class="col-sm sl-center-t sl-ospace-1 sl-challenge-right">
         <h3><i class="fas fa-caret-right"></i> For the Experienced</h3>
@@ -48,10 +68,38 @@ $d_page = array(
         <h1 class="sl-ospace-1">@emojione(':cry:')</h1>
         <p class="summary"><i>Jane has written a program to help her complete her Maths homework quickly. Unfortunately, she is facing some few issues with the program. Can you help her fix it?</i></p>
         <h5><i class="fas fa-lg fa-file-code"></i> Download Resources for:</h5>
-        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A2-c.zip') }}">C from here!</a></b></p>
-        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A2-cpp.zip') }}">C++ from here!</a></b></p>
-        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A2-java.zip') }}">Java from here!</a></b></p>
-        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A2-python.zip') }}">Python from here!</a></b></p>
+        <div class="sl-ospace-1 "></div>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Programming Language</th>
+              <th scope="col">Resources</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td><b>C</b></td>
+              <td><a href="{{ url('/assets/challenges/19.03/19.03-A2-c.zip') }}">download</a></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td><b>C++</b></td>
+              <td><a href="{{ url('/assets/challenges/19.03/19.03-A2-cpp.zip') }}">download</a></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td><b>Java</b></td>
+              <td><a href="{{ url('/assets/challenges/19.03/19.03-A2-java.zip') }}">download</a></td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td><b>Python</b></td>
+              <td><a href="{{ url('/assets/challenges/19.03/19.03-A2-python.zip') }}">download</a></td>
+            </tr>
+          </tbody>
+        </table>
     </div>
   </div>
   <div class="row">
