@@ -48,7 +48,9 @@ $d_page = array(
         <h1 class="sl-ospace-1">@emojione(':cry:')</h1>
         <p class="summary"><i>Jane has written a program to help her complete her Maths homework quickly. Unfortunately, she is facing some few issues with the program. Can you help her fix it?</i></p>
         <h5><i class="fas fa-lg fa-file-code"></i> Download Resources for:</h5>
+        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A2-c.zip') }}">C from here!</a></b></p>
         <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A2-cpp.zip') }}">C++ from here!</a></b></p>
+        <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A2-java.zip') }}">Java from here!</a></b></p>
         <p><b><a href="{{ url('/assets/challenges/19.03/19.03-A2-python.zip') }}">Python from here!</a></b></p>
     </div>
   </div>
