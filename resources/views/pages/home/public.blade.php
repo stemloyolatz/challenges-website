@@ -43,21 +43,21 @@ $d_page = array(
         <table class="table table-bordered table-hover">
           <thead>
             <tr>
-              <th scope="col">#</th>
-              <th scope="col">Programming Language</th>
-              <th scope="col">Resources</th>
+              <th class="align-middle" scope="col">#</th>
+              <th class="align-middle" scope="col">Programming Language</th>
+              <th class="align-middle" scope="col">Resources</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row">1</th>
-              <td><b>Python</b> <i>(recommended for all beginners)</i></td>
-              <td><a href="{{ url('/assets/challenges/19.03/19.03-A1-python.zip') }}">download</a></td>
+              <th class="align-middle" scope="row">1</th>
+              <td class="align-middle"><b>Python</b> <i>(recommended for all beginners)</i></td>
+              <td class="align-middle"><a href="{{ url('/assets/challenges/19.03/19.03-A1-python.zip') }}">download</a></td>
             </tr>
             <tr>
-              <th scope="row">2</th>
-              <td><b>C++</b> <i>(recommended for Form Five students planning to take optional Computer Science)</i></td>
-              <td><a href="{{ url('/assets/challenges/19.03/19.03-A1-cpp.zip') }}">download</a></td>
+              <th class="align-middle" scope="row">2</th>
+              <td class="align-middle"><b>C++</b> <i>(recommended for Form Five students planning to take optional Computer Science)</i></td>
+              <td class="align-middle"><a href="{{ url('/assets/challenges/19.03/19.03-A1-cpp.zip') }}">download</a></td>
             </tr>
           </tbody>
         </table>
@@ -72,31 +72,31 @@ $d_page = array(
         <table class="table table-bordered table-hover">
           <thead>
             <tr>
-              <th scope="col">#</th>
-              <th scope="col">Programming Language</th>
-              <th scope="col">Resources</th>
+              <th class="align-middle" scope="col">#</th>
+              <th class="align-middle" scope="col">Programming Language</th>
+              <th class="align-middle" scope="col">Resources</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row">1</th>
-              <td><b>C</b></td>
-              <td><a href="{{ url('/assets/challenges/19.03/19.03-A2-c.zip') }}">download</a></td>
+              <th class="align-middle" scope="row">1</th>
+              <td class="align-middle"><b>C</b></td>
+              <td class="align-middle"><a href="{{ url('/assets/challenges/19.03/19.03-A2-c.zip') }}">download</a></td>
             </tr>
             <tr>
-              <th scope="row">2</th>
-              <td><b>C++</b></td>
-              <td><a href="{{ url('/assets/challenges/19.03/19.03-A2-cpp.zip') }}">download</a></td>
+              <th class="align-middle" scope="row">2</th>
+              <td class="align-middle"><b>C++</b></td>
+              <td class="align-middle"><a href="{{ url('/assets/challenges/19.03/19.03-A2-cpp.zip') }}">download</a></td>
             </tr>
             <tr>
-              <th scope="row">3</th>
-              <td><b>Java</b></td>
-              <td><a href="{{ url('/assets/challenges/19.03/19.03-A2-java.zip') }}">download</a></td>
+              <th class="align-middle" scope="row">3</th>
+              <td class="align-middle"><b>Java</b></td>
+              <td class="align-middle"><a href="{{ url('/assets/challenges/19.03/19.03-A2-java.zip') }}">download</a></td>
             </tr>
             <tr>
-              <th scope="row">4</th>
-              <td><b>Python</b></td>
-              <td><a href="{{ url('/assets/challenges/19.03/19.03-A2-python.zip') }}">download</a></td>
+              <th class="align-middle" scope="row">4</th>
+              <td class="align-middle"><b>Python</b></td>
+              <td class="align-middle"><a href="{{ url('/assets/challenges/19.03/19.03-A2-python.zip') }}">download</a></td>
             </tr>
           </tbody>
         </table>
