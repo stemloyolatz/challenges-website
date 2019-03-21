@@ -118,8 +118,6 @@ $statements = array(
     "t" => "13. <u>Our cookies</u>",
     "b" => [
         ["t" => "13.1 We use both session and persistent cookies on our website."],
-        ["t" => "13.2 The names of the cookies that we use on our website, and the purposes for which they are used, are set out below:",
-        "b" => ["(a) we use <i>_bhid</i> to recognize a computer when a user visits our website, track users as they navigate the website, improve the website's usability, administer the website, personalize the website for each user and validate authenticated users’ sessions.", "(b) we use <i>XSRF-TOKEN</i> to prevent fraud and improve the security of the website.", "(c) we use <i>remember_web_*</i> to improve user’s experience, validate authenticated users’ sessions and remember user’s session for an extended period."]]
     ]
 ],
 [
@@ -159,9 +157,8 @@ $statements = array(
 [
     "t" => "18. <u>Our details</u>",
     "b" => [
-        ["t" => "18.1 This website is owned and operated by STEM Loyola (Challenges)."],
-        ["t" => "18.2 We are registered in Tanzania under registration number [number]."],
-        ["t" => "18.3 You can contact us:",
+        ["t" => "18.1 This website is owned and operated by STEM Loyola."],
+        ["t" => "18.2 You can contact us:",
         "b" => [
         "(a) using our website contact form;", "(b) by telephone, on the contact number published on our website from time to time; or", "(c) by email, using the email address published on our website from time to time."]]
     ]
