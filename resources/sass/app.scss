@@ -150,6 +150,7 @@
 // Fixes top-bar menu covering contents
 body { 
   @include media-breakpoint-down(sm) { padding-top: 7em; }
+  @include media-breakpoint-up(md) { padding-top: 7em; }
   @include media-breakpoint-up(lg) { padding-top: 5em; }
 }
 
@@ -163,3 +164,6 @@ body {
     &:hover {  color: $red-1;  }
   }
 }
+
+
+

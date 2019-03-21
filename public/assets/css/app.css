@@ -16610,6 +16610,12 @@ readers do not read off random characters that represent icons */
   }
 }
 
+@media (min-width: 768px) {
+  body {
+    padding-top: 7em;
+  }
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 5em;

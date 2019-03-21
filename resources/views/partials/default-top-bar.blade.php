@@ -1,7 +1,7 @@
 {{-- The default top navigation bar --}}
-<nav class="navbar navbar-custom navbar-expand-lg fixed-top shadow-sm mb-5">
+<nav class="navbar navbar-custom navbar-light navbar-expand-lg fixed-top shadow-sm mb-5">
     <a class="navbar-brand sl-logo" href="/"><img src="/assets/images/stem-loyola.png" height="48" alt=""></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sl-topnav" aria-controls="sl-topnav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#sl-topnav" aria-controls="sl-topnav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div id="sl-topnav" class="navbar-collapse collapse">
