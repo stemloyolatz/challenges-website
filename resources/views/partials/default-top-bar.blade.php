@@ -11,7 +11,7 @@
             </li>
         </ul>
         <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="{{ route('about.about') }}"><h5>About Us</h5></a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ route('about.about') }}"><h5>About Us</h5></a></li>
         </ul>
     </div>
 </nav>

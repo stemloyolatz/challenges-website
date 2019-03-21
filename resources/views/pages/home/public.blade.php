@@ -37,7 +37,12 @@ $d_page = array(
         <h3><i class="fas fa-caret-right sl-paint"></i> For the Novice</h3>
         <h4 class="sl-ospace-1"><b>Greetings</b></h4>
         <h1 class="sl-ospace-1">@emojione(':hugging:')</h1>
-        <p class="sl-summary"><i>Create your very first program and use it to tell us few things about yourself!</i></p>
+        <div class="sl-summary">
+          <h5>Objective:</h5>
+          <p class="sl-ospace-1"><i>Create your very first program and use it to tell us few things about yourself!</i></p>
+          <h5>Task:</h5>
+          <p class="sl-ospace-1">You are given a program with examples of instructions a computer can understands (download from resources #1 or #2 below). Complete the program so that when it is run, the program will display your school, current year, your full name and the value of Pi.</p>
+        </div>
         <h5 class="sl-ospace-1"><i class="fas fa-lg fa-file-code sl-paint"></i> Download Resources for:</h5>
         <div class="sl-ospace-1 "></div>
         <table class="table table-bordered table-hover">
@@ -66,7 +71,12 @@ $d_page = array(
         <h3><i class="fas fa-caret-right sl-paint"></i> For the Experienced</h3>
         <h4 class="sl-ospace-1"><b>Jane in Trouble</b></h4>
         <h1 class="sl-ospace-1">@emojione(':cry:')</h1>
-        <p class="sl-summary"><i>Jane has written a program to help her complete her Maths homework quickly. Unfortunately, she is facing some few issues with the program. Can you help her fix it?</i></p>
+        <div class="sl-summary">
+          <h5>Objective:</h5>
+          <p class="sl-ospace-1"><i>Jane has written a program to help her complete her Maths homework quickly. Unfortunately, she is facing some few issues with the program. Can you help her fix it?</i></p>
+          <h5>Task:</h5>
+          <p class="sl-ospace-1">You are given a file ("numbers.txt") that contains 10,000 numbers. Jane has written a program (included in the downloads) that displays all numbers from the file on the screen. Your task is to improve the program so that when it is run, the program will display ONLY odd numbers and at the end show the total count of even numbers contained in the file.</p>
+        </div>        
         <h5 class="sl-ospace-1"><i class="fas fa-lg fa-file-code sl-paint"></i> Download Resources for:</h5>
         <div class="sl-ospace-1 "></div>
         <table class="table table-bordered table-hover">
