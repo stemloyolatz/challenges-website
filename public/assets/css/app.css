@@ -16574,6 +16574,18 @@ readers do not read off random characters that represent icons */
   color: #bf1e2d;
 }
 
+/******************************* ARTICLES PAGES *******************************/
+
+.sl-article-body p {
+  margin-bottom: 2em;
+}
+
+.sl-article-qns {
+  border: 0.1em dashed #605c5c;
+  font-style: oblique;
+  padding: 1em;
+}
+
 /*********************************** FOOTER ***********************************/
 
 .sl-footer-wrapper {

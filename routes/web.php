@@ -48,7 +48,7 @@ Route::get('/about/terms', [
 /*
  * Resources pages
  */
-Route::get('/article/{id}', [
+Route::get('/article/recommended-ides', [
     'as' => 'resources.article',
     'uses' => 'ResourcesController@getArticle'
 ]);

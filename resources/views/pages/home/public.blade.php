@@ -118,10 +118,15 @@ $d_page = array(
       <p><b><a href="{{ url('/about/contacts') }}">Email us your solution</a></b></p>
     </div>
   </div>
-  <div class="row">
-    <div class="col-sm sl-center-t sl-ospace-3">
-      <h5><strong>Support Materials for Beginners:</strong></h5>
-      <p>Coming Soon!</p>
+  <div class="row justify-content-center ">
+    <div class="col-sm-12 col-md-9 col-lg-7 sl-ospace-3">
+      <h5><strong>Support Materials for the Challenge:</strong></h5>
+      <p>
+        <ul>
+          <li><a href="{{ url('/article/recommended-ides') }}">Recommended IDEs</a> (What you need to create and run your programs)</li>
+          <li>More coming soon!</li>
+        </ul>
+      </p>
     </div>
   </div>
 </div>

@@ -12,8 +12,9 @@ class ResourcesController extends Controller
     *  @param Request $request
     *  @return Response
     */
-   public function getArticle (Request $request, $id)
+   public function getArticle (Request $request)
    {
-       return view('pages.resources.article')->with('articleId', $id);
+        //return view('pages.resources.article')->with('articleId', $id);
+        return view('pages.resources.article');
    }
 }

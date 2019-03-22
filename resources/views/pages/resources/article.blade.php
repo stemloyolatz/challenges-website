@@ -3,7 +3,7 @@
 {{-- Declare required page constants --}}
 <?php
 $d_page = array(
-    'title' => 'Resources!',
+    'title' => 'Recommended IDEs',
     'description' => 'This is the resources page!'
 );
 ?>
@@ -26,18 +26,48 @@ $d_page = array(
 @section('body')
 <div class="container sl-cont">
   <div class="row  sl-cont">
-      <h2 class="sl-ospace-1 sl-center-c">{{ $d_page['title'] }}</h2>
+      <h2 class="sl-ospace-1 sl-center-c"><strong>{{ $d_page['title'] }}</strong></h2>
   </div>
-  <div class="row sl-contact-us">
-    <img src="/assets/images/loading.gif" alt="STEM-Loyola Email" class="sl-ospace-1 img-fluid sl-center-c">                   
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-8 col-lg-6 sl-center-t sl-article-qns">
+      <h1 class="">@emojione(':thinking:')</h1>
+      <p>What can I use to write my programs?</p>
+      <p>How can I run the programs I create?</p>      
+    </div>
   </div>
-  <div class="sl-ospace-3 "></div>
-  <div class="row">
-    <h5 class="sl-center-c">ID: {{ $articleId }}</h5>
-  </div>
-  <div class="sl-ospace-3"></div>
-  <div class="row sl-center-t">
-    <p>asdfasdfasdfasf</p>
+  <div class="sl-ospace-2"></div>
+  <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-10 sl-article-body">
+        <h4>What is an IDE?</h4>
+        <p>IDE stands for an Integrated Development Environment. An IDE is a application that contains the necessary tools required to write and test software. Simply, it is the application that you will need to create, test and run your programs.</p>
+
+        <h4>What IDEs Do We Recommend?</h4>
+        <p>We recommend the following IDEs depending on the programming language of choice:</p>
+        
+        <p>
+          <ul>
+            <li><a href="{{ url('#Python') }}">Python</a></li>
+            <li><a href="{{ url('#JavaScript') }}">JavaScript, HTML & CSS</a></li>
+            <li><a href="{{ url('#Cpp') }}">C or C++</a></li>
+            <li><a href="{{ url('#Java') }}">Java</a></li>
+          </ul>
+        </p>
+        <h4 class="sl-ospace-2">1. <u>Python</u></h4><a name="Python"></a>
+        <p>We recommend Thonny IDE (<a target="_blank" href="{{ url('https://thonny.org') }}">Download setup from here</a>)</p>
+        <img class="img-fluid" src="/assets/images/ide-thonny.png" alt="Thonny-IDE">
+
+        <h4 class="sl-ospace-2">2. <u>JavaScript</u></h4><a name="JavaScript"></a>
+        <p>We recommend Visual Studio Code (<a target="_blank" href="{{ url('https://code.visualstudio.com/?wt.mc_id=vscom_downloads') }}">Download setup from here</a>)</p>
+        <img class="img-fluid" src="/assets/images/ide-vscode.png" alt="Thonny-IDE">
+
+        <h4 class="sl-ospace-2">3. <u>C or C++</u></h4><a name="Cpp"></a>
+        <p>We recommend CodeBlocks (<a target="_blank" href="{{ url('http://www.codeblocks.org/downloads/26') }}">Download setup from here</a>)</p>
+        <img class="img-fluid" src="/assets/images/ide-codeblocks.png" alt="CodeBlocks-IDE"><a name="Experienced"></a>
+        
+        <h4 class="sl-ospace-2">4. <u>Java</u></h4><a name="Java"></a>
+        <p>We recommend Apache Netbeans (<a target="_blank" href="{{ url('https://netbeans.apache.org/download/index.html') }}">Download setup from here</a>)</p>
+        <img class="img-fluid" src="/assets/images/ide-netbeans.png" alt="CodeBlocks-IDE"><a name="Experienced"></a>      
+      </div>
   </div>
 </div>
 @stop

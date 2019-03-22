@@ -122,6 +122,18 @@
 }
 
 
+/******************************* ARTICLES PAGES *******************************/
+.sl-article-body{
+
+  p { margin-bottom: 2em; }
+}
+
+.sl-article-qns {
+  border: .1em dashed $grey;
+  font-style: oblique;
+  padding: 1em;
+}
+
 /*********************************** FOOTER ***********************************/
 .sl-footer-wrapper {
   background-color: $footer-bg-color;
