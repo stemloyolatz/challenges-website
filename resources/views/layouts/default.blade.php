@@ -73,11 +73,11 @@
     <meta name="theme-color" content="#ffffff">
     
     {{--  Vendor and custom styles  --}}
-    <link href="/assets/css/app.css?v=0.5" rel="stylesheet" type="text/css" >
+    <link href="/assets/css/app.css?v=0.6" rel="stylesheet" type="text/css" >
   </head>
   <body>
+    @yield('top-bar')
     <div class="container">
-      @yield('top-bar')
       @yield('body')
       @yield('footer')
 

@@ -16616,23 +16616,13 @@ readers do not read off random characters that represent icons */
 
 /****************************** Bootstrap fixes *******************************/
 
-@media (max-width: 767.98px) {
-  body {
-    padding-top: 7em;
-  }
+/*
+body { 
+  @include media-breakpoint-down(sm) { padding-top: 7em; }
+  @include media-breakpoint-up(md) { padding-top: 7em; }
+  @include media-breakpoint-up(lg) { padding-top: 5em; }
 }
-
-@media (min-width: 768px) {
-  body {
-    padding-top: 7em;
-  }
-}
-
-@media (min-width: 992px) {
-  body {
-    padding-top: 5em;
-  }
-}
+*/
 
 .navbar-custom {
   background-color: #fff;

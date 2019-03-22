@@ -39,7 +39,7 @@ $d_page = array(
   <div class="row justify-content-center">
       <div class="col-sm-12 col-md-12 col-lg-10 sl-article-body">
         <h4>What is an IDE?</h4>
-        <p>IDE stands for an Integrated Development Environment. An IDE is a application that contains the necessary tools required to write and test software. Simply, it is the application that you will need to create, test and run your programs.</p>
+        <p>IDE stands for an Integrated Development Environment. An IDE is an application that contains the necessary tools required to write and test software. Simply, it is the application that you will need to create, test and run your programs.</p>
 
         <h4>What IDEs Do We Recommend?</h4>
         <p>We recommend the following IDEs depending on the programming language of choice:</p>
@@ -52,19 +52,20 @@ $d_page = array(
             <li><a href="{{ url('#Java') }}">Java</a></li>
           </ul>
         </p>
-        <h4 class="sl-ospace-2">1. <u>Python</u></h4><a name="Python"></a>
+        <a name="Python"></a>
+        <h4 class="sl-ospace-2">1. <u>Python</u></h4>
         <p>We recommend Thonny IDE (<a target="_blank" href="{{ url('https://thonny.org') }}">Download setup from here</a>)</p>
         <img class="img-fluid" src="/assets/images/ide-thonny.png" alt="Thonny IDE">
-
-        <h4 class="sl-ospace-2">2. <u>JavaScript</u></h4><a name="JavaScript"></a>
+<a name="JavaScript"></a>
+        <h4 class="sl-ospace-2">2. <u>JavaScript</u></h4>
         <p>We recommend Visual Studio Code (<a target="_blank" href="{{ url('https://code.visualstudio.com/?wt.mc_id=vscom_downloads') }}">Download setup from here</a>)</p>
         <img class="img-fluid" src="/assets/images/ide-vscode.png" alt="Visual Studio Code">
-
-        <h4 class="sl-ospace-2">3. <u>C or C++</u></h4><a name="Cpp"></a>
+<a name="Cpp"></a>
+        <h4 class="sl-ospace-2">3. <u>C or C++</u></h4>
         <p>We recommend CodeBlocks (<a target="_blank" href="{{ url('http://www.codeblocks.org/downloads/26') }}">Download setup from here</a>)</p>
         <img class="img-fluid" src="/assets/images/ide-codeblocks.png" alt="CodeBlocks"><a name="Experienced"></a>
-        
-        <h4 class="sl-ospace-2">4. <u>Java</u></h4><a name="Java"></a>
+        <a name="Java"></a>
+        <h4 class="sl-ospace-2">4. <u>Java</u></h4>
         <p>We recommend Apache Netbeans (<a target="_blank" href="{{ url('https://netbeans.apache.org/download/index.html') }}">Download setup from here</a>)</p>
         <img class="img-fluid" src="/assets/images/ide-netbeans.png" alt="Apache Netbeans"><a name="Experienced"></a>      
       </div>
