@@ -120,7 +120,7 @@ $d_page = array(
   </div>
   <div class="row justify-content-center ">
     <div class="col-sm-12 col-md-9 col-lg-7 sl-ospace-3">
-      <h5><strong>Support Materials for the Challenge:</strong></h5>
+      <h5 class="sl-center-t"><strong>Support Materials for the Challenge:</strong></h5>
       <p>
         <ul>
           <li><a href="{{ url('/article/recommended-ides') }}">Recommended IDEs</a> (What you need to create and run your programs)</li>
