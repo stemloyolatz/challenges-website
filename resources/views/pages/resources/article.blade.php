@@ -54,19 +54,19 @@ $d_page = array(
         </p>
         <h4 class="sl-ospace-2">1. <u>Python</u></h4><a name="Python"></a>
         <p>We recommend Thonny IDE (<a target="_blank" href="{{ url('https://thonny.org') }}">Download setup from here</a>)</p>
-        <img class="img-fluid" src="/assets/images/ide-thonny.png" alt="Thonny-IDE">
+        <img class="img-fluid" src="/assets/images/ide-thonny.png" alt="Thonny IDE">
 
         <h4 class="sl-ospace-2">2. <u>JavaScript</u></h4><a name="JavaScript"></a>
         <p>We recommend Visual Studio Code (<a target="_blank" href="{{ url('https://code.visualstudio.com/?wt.mc_id=vscom_downloads') }}">Download setup from here</a>)</p>
-        <img class="img-fluid" src="/assets/images/ide-vscode.png" alt="Thonny-IDE">
+        <img class="img-fluid" src="/assets/images/ide-vscode.png" alt="Visual Studio Code">
 
         <h4 class="sl-ospace-2">3. <u>C or C++</u></h4><a name="Cpp"></a>
         <p>We recommend CodeBlocks (<a target="_blank" href="{{ url('http://www.codeblocks.org/downloads/26') }}">Download setup from here</a>)</p>
-        <img class="img-fluid" src="/assets/images/ide-codeblocks.png" alt="CodeBlocks-IDE"><a name="Experienced"></a>
+        <img class="img-fluid" src="/assets/images/ide-codeblocks.png" alt="CodeBlocks"><a name="Experienced"></a>
         
         <h4 class="sl-ospace-2">4. <u>Java</u></h4><a name="Java"></a>
         <p>We recommend Apache Netbeans (<a target="_blank" href="{{ url('https://netbeans.apache.org/download/index.html') }}">Download setup from here</a>)</p>
-        <img class="img-fluid" src="/assets/images/ide-netbeans.png" alt="CodeBlocks-IDE"><a name="Experienced"></a>      
+        <img class="img-fluid" src="/assets/images/ide-netbeans.png" alt="Apache Netbeans"><a name="Experienced"></a>      
       </div>
   </div>
 </div>
