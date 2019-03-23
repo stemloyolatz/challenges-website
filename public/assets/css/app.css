@@ -16498,6 +16498,10 @@ readers do not read off random characters that represent icons */
   padding: 1em;
 }
 
+.sl-link-icon {
+  margin-right: 0.7em;
+}
+
 /******************************** ERROR PAGES *********************************/
 
 /****************************** STEM LOYOLA LOGO ******************************/

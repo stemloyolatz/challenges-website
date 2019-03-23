@@ -123,7 +123,9 @@ $d_page = array(
       <h5 class="sl-center-t"><strong>Support Materials for the Challenge:</strong></h5>
       <p>
         <ul>
-          <li><a href="{{ url('/article/recommended-ides') }}">Recommended IDEs</a> (What you need to create and run your programs)</li>
+          <li><i class="fas fa-lg fa-file-code sl-link-icon"></i> <a href="{{ url('/article/recommended-ides') }}">Recommended IDEs</a> (What you need to create and run your programs)</li>
+          <li><i class="fab fa-lg fa-youtube sl-link-icon"></i> <a target="_blank" href="{{ url('https://youtu.be/E-MpwRMYZ4I') }}">Walk-through tutorial: Setting up Python IDE</a></li>
+          <li><i class="fab fa-lg fa-youtube sl-link-icon"></i> <a target="_blank" href="{{ url('https://youtu.be/AQOOqgn6IpQ') }}">Walk-through tutorial: Setting up C or C++ IDE</a></li>
           <li>More coming soon!</li>
         </ul>
       </p>
