@@ -73,7 +73,7 @@
     <meta name="theme-color" content="#ffffff">
     
     {{--  Vendor and custom styles  --}}
-    <link href="/assets/css/app.css?v=0.7" rel="stylesheet" type="text/css" >
+    <link href="/assets/css/app.css?v=0.8" rel="stylesheet" type="text/css" >
   </head>
   <body>
     @yield('top-bar')

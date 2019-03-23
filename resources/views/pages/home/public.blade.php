@@ -118,6 +118,7 @@ $d_page = array(
       <p><b><a href="{{ url('/about/contacts') }}">Email us your solution</a></b></p>
     </div>
   </div>
+  <a name="SupportMaterials"></a>
   <div class="row justify-content-center ">
     <div class="col-sm-12 col-md-9 col-lg-7 sl-ospace-3">
       <h5 class="sl-center-t"><strong>Support Materials for the Challenge:</strong></h5>
