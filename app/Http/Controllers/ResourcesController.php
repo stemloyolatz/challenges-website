@@ -17,4 +17,10 @@ class ResourcesController extends Controller
         //return view('pages.resources.article')->with('articleId', $id);
         return view('pages.resources.article');
    }
+
+   public function getReferences (Request $request)
+   {
+        //return view('pages.resources.article')->with('articleId', $id);
+        return view('pages.resources.references');
+   }
 }

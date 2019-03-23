@@ -16468,6 +16468,18 @@ readers do not read off random characters that represent icons */
   padding-right: 2em;
 }
 
+.sl-red {
+  color: #f00;
+}
+
+.sl-red-1 {
+  color: #60120c;
+}
+
+.sl-grey {
+  color: #605c5c;
+}
+
 /********************************* CHALLENGE **********************************/
 
 .sl-challenge-left {

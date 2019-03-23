@@ -46,6 +46,11 @@
   padding-right: 2em;
 }
 
+// Global colors
+.sl-red { color: $red; }
+.sl-red-1 { color: $red-1; }
+.sl-grey { color: $grey; }
+
 /********************************* CHALLENGE **********************************/
 .sl-challenge-left {
   border-right: .3em solid $grey;

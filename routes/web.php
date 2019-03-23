@@ -52,3 +52,8 @@ Route::get('/article/recommended-ides', [
     'as' => 'resources.article',
     'uses' => 'ResourcesController@getArticle'
 ]);
+
+Route::get('/article/references', [
+    'as' => 'resources.article',
+    'uses' => 'ResourcesController@getReferences'
+]);
