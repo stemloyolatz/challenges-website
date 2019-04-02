@@ -54,7 +54,7 @@ $d_page = array(
         <tbody>
           {{-- Python --}}
           <tr>
-            <th rowspan="2" class="align-middle" scope="row">Python</th>
+            <th rowspan="3" class="align-middle" scope="row">Python</th>
             <td class="align-middle">Python 3 Beginner's Reference Cheat Sheet</td>
             <td class="align-middle">Sheet</td>
             <td class="align-middle"><a target="_blank" href="{{ url('/assets/references/python/Python-3-Beginner-Reference-Cheat-Sheet.pdf') }}">PDF</a>, [<a target="_blank" href="{{ url('http://www.sixthresearcher.com/python-3-reference-cheat-sheet-for-beginners') }}">Source</a>]</td>
@@ -63,6 +63,11 @@ $d_page = array(
             <td class="align-middle">Beginner's Python 3 Tutorial </td>
             <td class="align-middle">Website</td>
             <td class="align-middle"><a target="_blank" href="{{ url('https://www.afterhoursprogramming.com/tutorial/python/introduction-python/') }}">Python Tutorial</a></td>
+          </tr>
+          <tr>
+            <td class="align-middle">Python 3 Turtles Graphics Reference Sheet </td>
+            <td class="align-middle">Sheet</td>
+            <td class="align-middle"><a target="_blank" href="{{ url('/assets/references/python/STEM-Loyola--Python3-Turtle-Reference.pdf') }}">PDF</a>, [<a target="_blank" href="{{ url('https://docs.python.org/3/library/turtle.html') }}">Source</a>]</td>
           </tr>
 
           {{-- C++ --}}
@@ -114,7 +119,6 @@ $d_page = array(
             <td class="align-middle"><a target="_blank" href="{{ url('https://www.afterhoursprogramming.com/tutorial/css/introduction-css/') }}">CSS Tutorial</a></td>
           </tr>
           
-
           {{-- Java --}}
           <tr>
             <th rowspan="2" class="align-middle" scope="row">Java</th>
