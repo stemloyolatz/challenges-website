@@ -82,7 +82,7 @@
       @yield('footer')
 
       {{--  Vendor and custom scripts  --}}
-      <script src="/assets/js/app.js?v=0.3"></script>
+      <script src="/assets/js/app.js?v=0.4"></script>
 
       {{-- Set up Google Analytics --}}
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135436218-1"></script>
