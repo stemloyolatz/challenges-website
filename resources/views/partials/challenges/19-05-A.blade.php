@@ -15,7 +15,7 @@
         <p class="sl-ospace-1">This is a multipart challenge. In the first part, you are given a moving ball and your task is to restrict its position within the screen window (width=800, height=600), hence creating the bouncing illusion.</p>
         <p class="sl-ospace-1">Note: (1) A video tutorial is available to support solving this challenge. </br>(2) Python and JavaScript resources are available.</p>
         <img src="{{ url('/assets/challenges/19.05/challenge-19.04.B1.gif') }}" alt="" class="sl-ospace-1 img-fluid sl-center-c">
-        <i class="fas fa-lg fa-file-code sl-link-icon sl-grey"></i> Commands for the graphics available <a target="_blank" href="{{ url('/assets/references/python/STEM-Loyola--Python3-Turtle-Reference.pdf') }}">here</a><br/>
+        <i class="fas fa-lg fa-file-code sl-link-icon sl-grey"></i> Commands for the Python graphics available <a target="_blank" href="{{ url('/assets/references/python/STEM-Loyola--Python3-Turtle-Reference.pdf') }}">here</a><br/>
       </div>
       <h5 class="sl-ospace-1"><i class="fas fa-lg fa-file-code sl-paint"></i> Download Resources for:</h5>
       <div class="sl-ospace-1 "></div>
@@ -36,7 +36,7 @@
           <tr>
             <th class="align-middle" scope="row">2</th>
             <td class="align-middle"><b>JavaScript</b> <i> (optional Computer Science)</i></td>
-            <td class="align-middle">WIP</td>
+            <td class="align-middle"><a href="{{ url('/assets/challenges/19.05/19.05-A1-javascript.zip') }}">download</a></td>
           </tr>
         </tbody>
       </table>
