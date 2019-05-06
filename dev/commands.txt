@@ -79,3 +79,7 @@ git config --global credential.helper 'cache --timeout=3600'
 
 # Emojis
 https://www.emojione.com/emoji/v4
+
+
+# Video encoding
+ffmpeg -i in.ogv -strict experimental -pix_fmt yuv420p -r 15 -vcodec h264 -acodec aac out.mp4

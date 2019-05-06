@@ -16,6 +16,8 @@
         <p class="sl-ospace-1">Note: (1) A video tutorial is available to support solving this challenge. </br>(2) Python and JavaScript resources are available.</p>
         <img src="{{ url('/assets/challenges/19.05/challenge-19.04.B1.gif') }}" alt="" class="sl-ospace-1 img-fluid sl-center-c">
         <i class="fas fa-lg fa-file-code sl-link-icon sl-grey"></i> Commands for the Python graphics available <a target="_blank" href="{{ url('/assets/references/python/STEM-Loyola--Python3-Turtle-Reference.pdf') }}">here</a><br/>
+        <i class="fab fa-lg fa-youtube sl-link-icon sl-red"></i> Support video for Python available <a target="_blank" href="{{ url('https://www.youtube.com/watch?v=e9P0MEu776o') }}">here</a><br/>
+        <i class="fab fa-lg fa-youtube sl-link-icon sl-red"></i> Support video for JavaScript: Coming Soon!<br/>
       </div>
       <h5 class="sl-ospace-1"><i class="fas fa-lg fa-file-code sl-paint"></i> Download Resources for:</h5>
       <div class="sl-ospace-1 "></div>
