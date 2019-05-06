@@ -52,7 +52,7 @@
         <p class="sl-ospace-1">As the legend goes, a mysterious list of 100,000 numbers was discovered at Nungwi (the northernmost part of Unguja island). As neither the origin nor the purpose of the numbers were ever ascertained, a Mathematics professor from the University of Dar es Salaam spent one weekend analyzing the list for any interesting information. After two days of intensive work, the professor realized that the list contains only 777 prime numbers. For unknown reasons, she called these 777 numbers as the <i>forbidden primes</i>.</p>
         <p class="sl-ospace-1">You are given the entire list of 100,000 numbers (each number on its own line) and your task is to find the largest of the forbidden primes. Extra credit shall be awarded if you can find the ten (10) largest forbidden primes from the list.</p>
         <p class="sl-ospace-1">Note: Your program should take less than 777 seconds to find the solution. Extra credit shall be awarded for programs that take less than 7 seconds.</p>
-
+        <i class="fab fa-lg fa-youtube sl-link-icon sl-red"></i> Recommended tutorial series: <a target="_blank" href="{{ url('https://www.youtube.com/playlist?list=PLu9W92259ufaUh1ljg5_dstubzGuslxmb') }}">C++ Advanced Tutorial</a><br/>
       </div>        
       <h5 class="sl-ospace-1"><i class="fas fa-lg fa-file-code sl-paint"></i> Download Resources for:</h5>
       <div class="sl-ospace-1 "></div>
