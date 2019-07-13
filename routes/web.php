@@ -46,6 +46,15 @@ Route::get('/about/terms', [
 
 
 /*
+ * Archives pages
+ */
+Route::get('/archives/challenges/{id}', [
+    'as' => 'archives.challenge',
+    'uses' => 'ArchivesController@getChallenge'
+]);
+
+
+/*
  * Resources pages
  */
 Route::get('/article/recommended-ides', [
