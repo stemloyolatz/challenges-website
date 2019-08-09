@@ -52,7 +52,11 @@
         <p class="sl-ospace-1">Over the June holiday, Luke went to visit his grandparents living at Songambele in Dodoma. When he was few minutes from getting off the bus, he overheard one lady behind him that she was born at Songambele ward in Kagera. Luke wondered how many wards are called Songambele in Tanzania. After searching online, he found out that there are four wards in Tanzania called Songambele: in Kongwa (Dodoma), Urambo (Tabora), Kyerwa (Kagera) and Kiteto (Manyara).</p>
         <p class="sl-ospace-1">After returning to school, Luke has been searching for ward names that have been reused for more than four times. All he could find are other ward names like Magomeni, Malolo, Mbuyuni and Mjimwema that have also been reused four times. Luke has downloaded a list of all ward names in Tanzania (almost 3,650 wards) and needs your help to find all the ward names that have been reused for more than four times.</p>
         <p class="sl-ospace-1"><u>Fun Fact</u>: The most famous ward name has been reused fourteen times.</p>
-        <i class="fab fa-lg fa-youtube sl-link-icon sl-red"></i> Recommended tutorial series: <a target="_blank" href="{{ url('https://www.youtube.com/playlist?list=PLu9W92259ufaUh1ljg5_dstubzGuslxmb') }}">C++ Advanced Tutorial</a><br/>
+        <p class="sl-ospace-1"><u>Recommended Tutorials:</u></p>
+        <i class="fab fa-lg fa-youtube sl-link-icon sl-red"></i> C++: <a target="_blank" href="{{ url('https://youtu.be/1_DbGQyxMzM') }}">C++ STL Map</a><br/>
+        <i class="fab fa-lg fa-youtube sl-link-icon sl-red"></i> Java: <a target="_blank" href="{{ url('https://youtu.be/70qy6_gw1Hc') }}">Java HashMap</a><br/>
+        <i class="fab fa-lg fa-youtube sl-link-icon sl-red"></i> Python: <a target="_blank" href="{{ url('https://youtu.be/ZEZdys-fHDw') }}">Python Dictionary</a><br/>
+        <i class="fab fa-lg fa-youtube sl-link-icon sl-red"></i> <a target="_blank" href="{{ url('https://www.youtube.com/playlist?list=PLu9W92259ufaUh1ljg5_dstubzGuslxmb') }}">C++ Advanced Tutorial</a><br/>
       </div>        
       <h5 class="sl-ospace-1"><i class="fas fa-lg fa-file-code sl-paint"></i> Download Resources for:</h5>
       <div class="sl-ospace-1 "></div>
