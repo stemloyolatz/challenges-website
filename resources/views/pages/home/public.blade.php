@@ -3,7 +3,7 @@
 {{-- Declare required page constants --}}
 <?php
 $d_page = array(
-    'title' => 'Challenge #3',
+    'title' => 'Challenge #4',
     'description' => 'This is the Home page!'
 );
 ?>
@@ -25,7 +25,7 @@ $d_page = array(
   --}}
 @section('body')
 <div class="container sl-cont">
-  @include('partials.challenges.19-05-A')
+  @include('partials.challenges.19-08-A')
 </div>
 @stop
 
