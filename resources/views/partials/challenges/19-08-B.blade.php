@@ -58,7 +58,7 @@
         <p class="sl-ospace-1">A text file "2014-CSEE-S0800.txt" contains the results in GPA format as shown in the figure below. No one got division zero but we have added one division-zero results to ensure you write a complete program.</p>
         <img src="{{ url('/assets/challenges/19.08/Figure-1-Results-File.png') }}" alt="" class="sl-ospace-1 img-fluid sl-center-c">
         <p class="sl-ospace-1"><u>Note</u>: (1) Points and divisions are calculated from the 7 best grades as shown in the figures below.</p>
-        <p class="sl-ospace-1"><u>(2) In order to get Division IV, a student must have at least 2 Ds or 1 C. This means, for example, that 6 Es and 1 D (i.e. 41 pts) will still be Division 0.</p>
+        <p class="sl-ospace-1">(2) In order to get Division IV, a student must have at least 2 Ds or 1 C. This means, for example, that 6 Es and 1 D (i.e. 41 pts) will still be Division 0.</p>
         <img src="{{ url('/assets/challenges/19.08/Figure-4-Grades-to-Points.png') }}" alt="" class="sl-ospace-1 img-fluid sl-center-c">
         <img src="{{ url('/assets/challenges/19.08/Figure-5-Divisions-to-Points.png') }}" alt="" class="sl-ospace-1 img-fluid sl-center-c">
         <p class="sl-ospace-1"><u>Recommended Tutorials:</u></p>
