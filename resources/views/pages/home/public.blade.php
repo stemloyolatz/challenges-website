@@ -3,7 +3,7 @@
 {{-- Declare required page constants --}}
 <?php
 $d_page = array(
-    'title' => 'Challenge #4',
+    'title' => 'Challenge #5',
     'description' => 'This is the Home page!'
 );
 ?>
