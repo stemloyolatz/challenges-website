@@ -25,7 +25,7 @@ $d_page = array(
   --}}
 @section('body')
 <div class="container sl-cont">
-  @include('partials.challenges.19-08-A')
+  @include('partials.challenges.19-08-B')
 </div>
 @stop
 
