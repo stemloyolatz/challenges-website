@@ -1,4 +1,4 @@
-{{-- This is the default home page a.k.a landing page for the website --}}
+{{-- This is the default home page a.k.a landing page for the references --}}
 
 {{-- Declare required page constants --}}
 <?php

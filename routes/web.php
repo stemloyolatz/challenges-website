@@ -48,6 +48,11 @@ Route::get('/about/terms', [
 /*
  * Archives pages
  */
+Route::get('/archives', [
+    'as' => 'archives.home',
+    'uses' => 'ArchivesController@getHome'
+]);
+
 Route::get('/archives/challenges/{id}', [
     'as' => 'archives.challenge',
     'uses' => 'ArchivesController@getChallenge'
@@ -57,6 +62,11 @@ Route::get('/archives/challenges/{id}', [
 /*
  * Resources pages
  */
+Route::get('/resources', [
+    'as' => 'resources.home',
+    'uses' => 'ResourcesController@getHome'
+]);
+
 Route::get('/article/recommended-ides', [
     'as' => 'resources.article',
     'uses' => 'ResourcesController@getArticle'

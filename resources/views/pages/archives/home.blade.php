@@ -23,7 +23,7 @@ $d_page = array(
   --}}
 @section('body')
 <div class="container sl-cont">
-  @include('partials.challenges.'.$id)
+  Archives
 </div>
 @stop
 

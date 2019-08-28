@@ -1,3 +1,5 @@
+{{-- This is the default home page a.k.a landing page for the resources --}}
+
 {{-- Declare required page constants --}}
 <?php
 $d_page = array(
@@ -23,7 +25,7 @@ $d_page = array(
   --}}
 @section('body')
 <div class="container sl-cont">
-  @include('partials.challenges.'.$id)
+  Resources
 </div>
 @stop
 
