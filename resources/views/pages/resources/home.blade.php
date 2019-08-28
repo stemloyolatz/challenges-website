@@ -25,7 +25,9 @@ $d_page = array(
   --}}
 @section('body')
 <div class="container sl-cont">
-  Resources
+  <div class="row  sl-cont">
+      <h2 class="sl-ospace-1 sl-center-c">Coming Soon!</h2>
+  </div>
 </div>
 @stop
 

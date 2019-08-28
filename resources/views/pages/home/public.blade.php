@@ -26,6 +26,7 @@ $d_page = array(
 @section('body')
 <div class="container sl-cont">
   @include('partials.challenges.19-08-B')
+  @include('partials.challenges.support-materials')
 </div>
 @stop
 
