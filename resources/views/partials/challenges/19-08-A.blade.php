@@ -4,9 +4,6 @@
 <div class="row sl-cont">
     <h6 class="sl-center-c">Last updated on 9 August 2019</h6>
 </div>
-<div class="row  sl-cont">
-    <h5 id="count-down" class="sl-ospace-2 sl-center-c">.</h5>
-</div>
 <div class="sl-ospace-3 "></div>
 <div class="row">
   <div class="col-sm sl-center-t sl-ospace-1 sl-challenge-left">

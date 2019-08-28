@@ -1,9 +1,6 @@
 <div class="row sl-cont">
     <h2 class="sl-ospace-1 sl-center-c">{{ $d_page['title'] }}</h2>
 </div>
-<div class="row  sl-cont">
-    <h5 id="count-down" class="sl-ospace-1 sl-center-c">.</h5>
-</div>
 <div class="sl-ospace-3 "></div>
 <div class="row">
   <div class="col-sm sl-center-t sl-ospace-1 sl-challenge-left">
